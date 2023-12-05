@@ -1,0 +1,19 @@
+{
+  "yaml.schemas": {
+    "ansible": [
+      "ans*.yaml",
+      "ans*.yml"
+    ],
+    "kubernetes": [
+      "k8s*.yaml",
+      "k8s*.yml",
+      "k3s*.yml",
+      "k3s*.yaml"
+    ],
+    "docker-compose": [
+      "docker-compose.yml",
+      "docker-compose.yaml"
+    ],
+    "https://raw.githubusercontent.com/yannh/kubernetes-json-schema/master/v1.22.4-standalone-strict/all.json": "file:///c%3A/Users/slayo/dev/my-repos/k8s-kodekloud/k8s-replica-set.yml"
+  }
+}

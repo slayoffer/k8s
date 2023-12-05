@@ -1,0 +1,8 @@
+apiVersion: vl
+kind: Binding
+metadata:
+  name: nginx
+target:
+  apiVersion: vl
+  kind: Node
+  name: node01

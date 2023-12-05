@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: bee
+  labels:
+    app: nginx
+    type: frontend
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+  tolerations:
+    - key: "spray"
+      operator: "Equal"
+      value: "mortein"
+      effect: "NoSchedule" # can also be NoExecute and PreferNoSchedule
+  # nodeName: node02
