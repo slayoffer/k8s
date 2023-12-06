@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: rick-nginx
-        image: slayoffer/rick-astley-nginx:test
+        image: slayoffer/rick-astley-nginx:test2
         ports:
         - containerPort: 80
 ---
