@@ -20,14 +20,21 @@
       border-radius: 10px;
       overflow: hidden;
     }
+
+    video {
+      width: 800px;
+      /* or any other size */
+      height: auto;
+    }
   </style>
 </head>
 
 <body>
   <div class="video-container">
-    <!-- Increase the width and height here -->
-    <iframe width="920" height="605" src="https://rutube.ru/play/embed/c6cc4d620b1d4338901770a44b3e82f4" frameBorder="0"
-      allow="clipboard-write; autoplay" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+    <video controls autoplay loop>
+      <source src="rickroll.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
   </div>
 </body>
 
